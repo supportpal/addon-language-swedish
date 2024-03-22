@@ -9,8 +9,6 @@ return array(
 
     "save_order"            => "Försöker spara den uppdaterade objektordningen.",
 
-    "show_all_results"      => "Visa alla resultat &raquo;",
-
     "are_you_sure"          => "Är du säker?",
     "yes_im_sure"           => "Ja, jag är säker",
 
@@ -85,7 +83,6 @@ return array(
 
     "missing_extension"     => "Saknar förlängning",
     "php_ldap_missing"      => "php-ldap-förlängningen krävs för att använda LDAP-utentisering. Aktivera det och ladda om sidan.",
-    "php_imap_missing"      => "php-imap-förlängningen krävs för att ladda ner e-post. Om du vill du ladda ner e-post, aktivera det och ladda om sidan.",
 
     /*
      * 2.0.3
@@ -153,5 +150,22 @@ return array(
      */
     "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
     "error_editing_message" => "There was an error while trying to edit this message.",
+
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
+    /*
+     * 4.3.0
+     */
+    "show_all_results"      => "Visa alla resultat &raquo;",
+
+    /*
+     * 5.0.0
+     */
+    "lock_timeout"          => "Lock Timeout",
+    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
 
 );
