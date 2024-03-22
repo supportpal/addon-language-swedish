@@ -26,11 +26,7 @@ return array(
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Förläng förfallotiden",
     "close_and_lock_ticket"     => "Stäng och lås ärendet",
-    "pause_due_time"            => "Pausa förfallotiden",
-    "reduce_due_time"           => "Minska förfallotiden",
-    "set_due_time"              => "Sätt färfallotid",
     "unlock_ticket"             => "Lås upp ärendet",
     "update_sla_plan"           => "Uppdatera SLA planen",
     "update_subject"            => "Uppdatera ämnesraden",
@@ -74,8 +70,17 @@ return array(
     "block_user"                => "Block user",
 
     /*
-     * 2.6.0
+     * 5.0.0
      */
-    "clear_due_time"            => "Clear due time",
+    "increase_resolve_due_time" => "Increase resolution due time",
+    "increase_reply_due_time"   => "Increase reply due time",
+    "reduce_resolve_due_time"   => "Reduce resolution due time",
+    "reduce_reply_due_time"     => "Reduce reply due time",
+    "set_resolve_due_time"      => "Set resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "clear_resolve_due_time"    => "Clear resolution due time",
+    "clear_reply_due_time"      => "Clear reply due time",
+    "pause_due_times"           => "Pause due times",
+    "unpause_due_times"         => "Unpause due times",
 
 );
