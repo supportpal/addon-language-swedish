@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "Nya ärenden",
     "last_message_text"         => "Senaste meddelandets text",
 
-    "set_due_time"              => "Sätt en förfallotid",
-
     "settings"                  => "Ärendeinställningar",
 
     "priority"                  => "Prioritet|Prioriteringar",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Tillåtna bilagsfiltyper",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> tittar också på ärendet.",
     "draft_saved"               => "Utkast sparat :time",
     "save_draft"                => "Spara utkast",
     "discard_draft"             => "Kasta utkast",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "SLA-plan|SLA-planer",
     "specific_schedule"         => "Specifika scheman",
     "calendar_hours_24"         => "Kalendertimmar (24 Hours)",
-    "resolution_time"           => "Lösningstider",
-    "resolution_time_desc"      => "Ange tider som ett ärende måste vara svarat på och löst på innan prioritet. Tiden räknas bara på arbetstimmar baserat på valda scheman, decimaltal kan användas.",
-    "reply_within"              => "Svara inom",
-    "resolve_within"            => "Lös inom",
     "plan"                      => "Plan",
     "sla_condition"             => "SLA-villkor",
     "sla_condition_desc"        => "Definiera ärendevillkoren för vilken nya ärenden kontrolleras för att se om de faller under denna plan. Om ett nytt ärende passar många SLA-planer väljs den utifrån SLA-plan prioritet som kan ändra genom att gå till planlistan och ändra ordningen.",
@@ -244,7 +237,6 @@ return array(
     "ticket_notes_top"          => "Enbart i toppen",
     "ticket_notes_messages"     => "Enbart i meddelanden",
 
-    "captcha_desc"              => "När captchan ska visas för användare som öppnar ett nytt ärende.",
     "unregistered_only"         => "Oregistrerade användare enbart",
 
     "allow_unauth_users"        => "Tillåt oautentiserade användare",
@@ -259,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Standardprioritering",
     "default_priority_desc"     => "Standardprioriteringen satt på alla inkommande ärenden via denna kanal.",
-    "verbose_email_log"         => "Mångordige-postlog",
 
     "last_reply"                => "Senast svaret",
     "opened_at"                 => "Öppnad den",
@@ -276,7 +267,6 @@ return array(
     "add_tag"                   => "Lägg till etikett",
 
     "unlock"                    => "Lås upp",
-    "merge"                     => "Sammanfoga",
     "merged"                    => "Sammanfogade",
     "unmerge"                   => "Separera",
     "close_and_lock"            => "Stäng & lås",
@@ -401,7 +391,6 @@ return array(
     "email_user_frontend"       => "E-posta användare när ärenden öppnas på framsidan",
     "email_user_frontend_desc"  => "Ange om användare blir notifierade via e-post om de öppnar ett eget ärende via framsidan.",
     "department_template_disabled" => "Den relevanta avdelningens e-postmall är avaktiverad så denn e-post kunde inte skickas.",
-    "verbose_email_log_desc"    => "Om e-postsamlingen skall loggas till fil. Rekommenderas att hålla avaktiverad såvida man inte blivit instruerad av support för debugging. Fem dagars loggar sparas, äldre tas bort automatiskt av systemet.",
 
     /*
      * 2.2.0
@@ -421,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Aktivera för att endast visa avdelningen för inloggade användare och endast acceptera epost som skickas från registrerade användare. Om akverad kommer ett svarsmail skickas till oregistrerad användare som skickar epost till denna avdelning, för att ändra eller avaktivera, se 'Endast Registrerade Användare' mallen nedan.",
     "form_fields_desc"          => "För att samla in mer information när en användare lämnar återkoppling, kan du lägga till egna fält som visas i formuläret. Fältet kommer att låsa när avnändaren skickar in svaret.",
-    "feedback_ratings"          => "Kundnöjdhetsbetyg (förändrar ditt kundnöjdhetspoäng)",
     "email_and_other_accounts"  => "Epost och andra kanal konton",
     "delete_message"            => "Radera meddelande",
     "linked_tickets"            => "Länkade Ärenden",
@@ -454,7 +442,6 @@ return array(
     "select_a_department_email" => "Select a department email...",
     "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
     "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
-    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
@@ -507,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Select ticket to merge into",
-    "search_number_or_subject"  => "Search by ticket number or subject",
     "im_not_sure"               => "I'm not sure",
     "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
     "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses here.",
@@ -544,5 +530,47 @@ return array(
      */
     "on_behalf_of"              => "Created on behalf of",
     "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "När captchan ska visas för användare som öppnar ett nytt ärende.",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> tittar också på ärendet.",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "Lösningstider",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
+
+    /*
+     * 5.3.0
+     */
+    "reject_duplicate_emails"   => "Reject Duplicate Emails",
+    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
+    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
 
 );
