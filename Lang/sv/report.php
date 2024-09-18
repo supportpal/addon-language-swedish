@@ -77,27 +77,27 @@ return array(
     /*
      * 2.3.1
      */
-    "canned_response_usage"     => "Canned Response Usage",
-    "canned_response_usage_desc" => "The number of times a given canned response has been used.",
-    "busiest_time_of_day"       => "Busiest Time Of Day",
-    "busiest_time_of_day_desc"  => "The number of messages received from users during each hour of the day.",
-    "busiest_day"               => "Busiest Day of the Month",
-    "busiest_day_desc"          => "The number of messages received from users across each day of the month.",
-    "busiest_month"             => "Busiest Month of the Year",
-    "busiest_month_desc"        => "The number of messages received from users across each month of the year.",
-    "busiest_department"        => "Busiest Department",
-    "busiest_department_desc"   => "The average number of operator messages per department, tallies all operator replies and divides by the number of assigned operators per department.",
+    "canned_response_usage"     => "Användning av förinställda svar",
+    "canned_response_usage_desc" => "Antalet gånger som ett visst svarsalternativ har använts.",
+    "busiest_time_of_day"       => "Mest trafikerad tid på dagen",
+    "busiest_time_of_day_desc"  => "Antalet meddelanden som tas emot från användare under varje timme på dygnet.",
+    "busiest_day"               => "Mest trafikerade dag i månaden",
+    "busiest_day_desc"          => "Antalet meddelanden som mottagits från användare under varje dag i månaden.",
+    "busiest_month"             => "Årets mest trafikerade månad",
+    "busiest_month_desc"        => "Antalet meddelanden som mottagits från användare under varje månad under året.",
+    "busiest_department"        => "Mest trafikerade avdelning",
+    "busiest_department_desc"   => "Det genomsnittliga antalet operatörsmeddelanden per avdelning: alla operatörssvar räknas samman och divideras med antalet tilldelade operatörer per avdelning.",
 
     /*
      * 2.5.0
      */
-    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
+    "total_users_desc"          => "Den här rapporten visar hur många användare som finns i systemet, uppdelat på hur många som har bekräftat att de äger sin e-postadress.",
 
     /*
      * 3.0.0
      */
     "user_feedback"             => "Feedback",
-    "user_feedback_desc"        => "The written feedback provided by users when answering feedback forms.",
+    "user_feedback_desc"        => "Den skriftliga feedback som användarna lämnar när de besvarar feedbackformulär.",
     "user_feedback_ratings"     => "Feedback Ratings",
     "user_feedback_ratings_desc" => "The total number of times each feedback rating has been given.",
     "user_feedback_response_rate" => "Feedback Response Rate",

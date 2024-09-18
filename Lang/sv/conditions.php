@@ -73,43 +73,43 @@ return array(
     /*
      * 2.4.0
      */
-    "watching_operator"                 => "Watching operator",
-    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+    "watching_operator"                 => "Bevakande operatör",
+    "exact_search_quotes"               => "För att göra en exakt sökning, använd citattecken runt sökorden",
 
     /*
      * 2.4.1
      */
-    "last_message_content"              => "Last message content",
+    "last_message_content"              => "Senaste meddelandeinnehåll",
 
     /*
      * 2.5.0
      */
-    "user_email_confirmed"              => "User email confirmed",
+    "user_email_confirmed"              => "Användarens e-post bekräftad",
 
     /*
      * 3.0.0
      */
-    "user_2fa_enabled"                  => "User 2FA enabled",
-    "article_type"                      => "Article type",
-    "article_brand"                     => "Article brand",
+    "user_2fa_enabled"                  => "Användaren har tvåfaktorsautentisering aktiverad",
+    "article_type"                      => "Artikeltyp",
+    "article_brand"                     => "Artikelvarumärke",
 
     /*
      * 3.3.0
      */
-    "user_has_organisation"             => "User has organisation",
+    "user_has_organisation"             => "Användare har organisation",
 
     /*
      * 3.5.0
      */
-    "user_phone_number"                 => "User phone number",
+    "user_phone_number"                 => "Användarens telefonnummer",
 
     /*
      * 3.7.0
      */
-    "user_organisation_access_level"    => "User organisation access level",
+    "user_organisation_access_level"    => "Användarorganisationens åtkomstnivå",
 
     /*
      * 4.0.0
      */
-    "last_message_content_exc_notes"    => "Last message content (excluding notes)",
+    "last_message_content_exc_notes"    => "Senaste meddelandeinnehåll (ej noteringar)",
 );

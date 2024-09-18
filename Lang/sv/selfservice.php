@@ -118,25 +118,25 @@ return array(
      * 2.3.1
      */
     "slug"                      => "Slug",
-    "slug_desc"                 => "The URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
-    "change_slug"               => "Change Slug",
-    "published_date"            => "Published Date",
-    "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
-    "content_options"           => "Content Options",
+    "slug_desc"                 => "Den URL-vänliga versionen av namnet. Den är vanligtvis gemen och innehåller endast bokstäver, siffror och bindestreck.",
+    "change_slug"               => "Ändra slug",
+    "published_date"            => "Publiseringsdatum",
+    "published_date_desc"       => "Datum och tid då artikeln publicerades, vilket visas för användarna på frontend.",
+    "content_options"           => "Alternativ för innehåll",
     "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
-    "external_link"             => "External Link",
+    "external_link"             => "Extern länk",
     "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
-    "pinned"                    => "Pinned",
+    "pinned"                    => "Pinnad",
     "pinned_desc"               => "Pin record so it shows at the top on the frontend. Only applies to list view types.",
-    "article_ordering"          => "Article Ordering",
-    "article_ordering_desc"     => "The ordering of articles when viewing the type on the frontend.",
-    "most_popular"              => "Most Popular",
-    "most_recent"               => "Most Recent",
+    "article_ordering"          => "Beställning av artiklar",
+    "article_ordering_desc"     => "Ordningsföljden för artiklar när du visar typen på frontend.",
+    "most_popular"              => "Mest populär",
+    "most_recent"               => "Senaste",
     "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
-    "type_enabled_desc"         => "Disabling the type will stop it displaying.",
-    "internal"                  => "Internal",
-    "internal_desc"             => "Toggle to set the type to only be visible internally to operators in the operator panel.",
-    "login_to_comment"          => "Please login to post a comment.",
+    "type_enabled_desc"         => "Om du avaktiverar typen visas den inte längre.",
+    "internal"                  => "Intern",
+    "internal_desc"             => "Växla för att ställa in att typen endast ska vara synlig internt för operatörer i operatörspanelen.",
+    "login_to_comment"          => "Vänligen logga in för att skriva en kommentar.",
     "article_rating"            => "Article Rating|Article Ratings",
     "comment_rating"            => "Comment Rating|Comment Ratings",
 
@@ -148,9 +148,9 @@ return array(
     /*
      * 3.0.0
      */
-    "type_protected_desc"       => "Toggle to only show content in this type to logged in users.",
-    "article_feedback"          => "Article Feedback",
-    "thank_you_for_feedback"    => "Thank you for your feedback on this article.",
+    "type_protected_desc"       => "Växla för att endast visa innehåll av den här typen för inloggade användare.",
+    "article_feedback"          => "Artikel Feedback",
+    "thank_you_for_feedback"    => "Tack för din feedback på den här artikeln.",
     "frontend_icon_desc"        => "Select a <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regular icon to display on the frontend for your type, you can also search for a custom icon not included in the list (starting with 'fa-').",
 
 );

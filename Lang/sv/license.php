@@ -36,7 +36,7 @@ return array(
     /*
      * 2.3.1
      */
-    "license_valid"     => "License Valid!",
+    "license_valid"     => "Licens giltig!",
 
     /*
      * 2.4.1
@@ -46,6 +46,6 @@ return array(
     /*
      * 4.0.0
      */
-    "unlicensed"        => "Unlicensed",
+    "unlicensed"        => "Olicensierad",
 
 );
