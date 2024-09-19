@@ -91,7 +91,7 @@ return array(
     /*
      * 2.5.0
      */
-    "total_users_desc"          => "Den här rapporten visar hur många användare som finns i systemet, uppdelat på hur många som har bekräftat att de äger sin e-postadress.",
+    "total_users_desc"          => "Den här rapporten visar hur många användare som finns i systemet, uppdelat på hur många som har bekräftat sin e-postadress.",
 
     /*
      * 3.0.0

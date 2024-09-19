@@ -277,7 +277,7 @@ return array(
      * 2.5.0
      */
     "organisation_domain_desc"      => "Ange varje domän som ägs av organisationen. Användare som registrerar sig med en e-postadress som tillhör någon av dessa domäner kommer automatiskt att läggas till i organisationen. Vi rekommenderar att du kontrollerar att användaren verkligen är en del av organisationen om de inte har bekräftat ägandet av sin e-postadress.",
-    "changing_email_desc"           => "Om du ändrar e-postadressen måste användaren bekräfta att hen äger e-postadressen vid nästa inloggning.",
+    "changing_email_desc"           => "Om du ändrar e-postadressen måste användaren bekräfta sin e-postadress vid nästa inloggning.",
     "unconfirmed_user_desc"         => "Användaren har inte bekräftat ägandet av den här e-postadressen.",
     "unregistered_user_desc"        => "Det här kontot skapades automatiskt utan lösenord. Du kan skicka ett bekräftelsemeddelande för att låta dem skapa sitt eget konto eller ange ett lösenord för dem nedan.",
     "send_confirmation_email"       => "Skicka bekräftelse via e-post",
