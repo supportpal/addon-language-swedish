@@ -331,7 +331,6 @@ return array(
     "reprocess_email_desc"      => "Vi rekommenderar att granska vad som ursprungligen blockerade e-posten och göra nödvändiga ändringar innan du försöker ombehandla.",
     "email_blocked_desc"        => "E-posten misslyckades att skicka flera gånger, den måste nu skickas manuellt.",
     "captcha_type"              => "Captcha-typ",
-    "captcha_type_desc"         => "Välj Captcha som ska användas i hela systemet. Vi rekommenderar att byta till Google reCAPTCHA, vilket kräver ytterligare konfiguration.",
     "default_captcha"           => "Standard Captcha",
     "recaptcha_site_key"        => "Webbplatsnyckel",
     "recaptcha_secret_key"      => "Hemlig nyckel",
@@ -359,7 +358,7 @@ return array(
      */
     "enable_ssl_warning"        => "Om du aktiverar denna inställning när sidan inte laddas korrekt kan du bli utelåst från SupportPal!",
     "verify_frontend_loads"     => "Vänligen verifiera att frontend laddas korrekt nedan.",
-    "twig_operator_signature"   => "Fältet {{ operator.signature|raw }} kommer att bearbetas under körning, därför kan förhandsgranskningen vara felaktig.",
+    "twig_operator_reply_template"   => "Fältet {{ operator.signature|raw }} kommer att bearbetas under körning, därför kan förhandsgranskningen vara felaktig.",
 
     /*
      * 2.4.1
