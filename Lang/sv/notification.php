@@ -8,9 +8,6 @@ return array(
     "new_reply"             => "Nytt ärendesvar",
     "new_reply_text"        => "Ett nytt svar har postats av :name i ärende #:item.",
 
-    "operator_login"        => "Operatör loggade in",
-    "operator_login_text"   => ":name har loggat in i operatörspanelen.",
-
     "failed_logins"         => "Misslyckade operatörinloggningar",
     "new_comments"          => "Nya kommentarer",
 
@@ -23,5 +20,11 @@ return array(
      * 2.1.1
      */
     "private_message_text"  => ":name har skickat ett nytt <a href=':route'>private message</a> till dig.",
+
+    /*
+     * 4.2.0
+     */
+    "new_mention"           => "New Mention",
+    "new_mention_text"      => ":name mentioned you in ticket #<a href=':route'>:number</a>.",
 
 );
