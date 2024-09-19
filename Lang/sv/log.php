@@ -167,7 +167,6 @@ return array(
     "deleted_old_records"               => "Raderade automatiskt gamla :rel-poster.",
     "sent_email_to_user_group"          => "Köade e-post till användargruppen ':new_value' för biljett #:rel.",
 
-
     /*
      * 2.4.0
      */
