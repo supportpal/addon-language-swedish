@@ -239,57 +239,57 @@ return array(
     /*
      * 2.3.1
      */
-    "social_login"                  => "Social Login",
-    "login_via"                     => "Log in via :provider",
+    "social_login"                  => "Social inloggning",
+    "login_via"                     => "Logga in via :provider",
     "idp"                           => "IdP",
-    "social_linking_login"          => "Please log in to complete linking of your social account.",
-    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
-    "already_registered"            => "Already registered?",
-    "linked_accounts"               => "Linked Accounts",
-    "unlink_account"                => "Unlink :record Account",
-    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
-    "failed_login"                  => "Failed Login|Failed Logins",
+    "social_linking_login"          => "Logga in för att slutföra länkningen av ditt sociala konto.",
+    "social_linking_register"       => "Vänligen fyll i uppgifterna nedan för att slutföra registreringen av ditt konto. Ditt sociala konto kommer automatiskt att länkas.",
+    "already_registered"            => "Redan registrerad?",
+    "linked_accounts"               => "Länkade konton",
+    "unlink_account"                => "Avlänka :record konto",
+    "unlink_account_warning"        => "Om du avlänkar det sociala kontot kan det inte längre användas för att logga in direkt på kontot.",
+    "failed_login"                  => "Misslyckad inloggning|Misslyckade inloggningar",
 
     /*
      * 2.4.0
      */
-    "must_have_permission"          => "must have \":permission\" permission",
-    "deleted_user"                  => "Deleted User",
+    "must_have_permission"          => "måste ha \":permission\" tillstånd",
+    "deleted_user"                  => "Radera användare",
     "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
 
     /*
      * 2.4.1
      */
-    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+    "select_or_new_organisation"    => "Välj en befintlig eller ange en ny organisation...",
 
     /*
      * 2.5.0
      */
-    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
-    "use_gravatar"                  => "Use Gravatar",
+    "success_register_desc"         => "Tack för att du har registrerat ett konto. Vänligen kontrollera din e-post för att slutföra kontoinställningen.",
+    "use_gravatar"                  => "Använd Gravatar",
     "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
 
     /*
      * 2.6.0
      */
-    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
-    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
+    "continue_to_login"             => "Vänligen fortsätt till <a href=':route'>login</a>.",
+    "reset_request_desc"            => "Om ett matchande konto hittades kommer ett e-postmeddelande att skickas till dig inom kort så att du kan återställa ditt lösenord.",
 
     /*
      * 3.0.0
      */
-    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
-    "operator_message"              => "Operator Messages",
-    "force_two_fa"                  => "Force 2FA",
-    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
-    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
-    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+    "ldap_linked_error"             => "Kontot är kopplat till en LDAP-tjänst. Logga in med ditt LDAP-användarnamn och lösenord.",
+    "operator_message"              => "Meddelanden från operatören",
+    "force_two_fa"                  => "Kräv tvåfaktorsautentisering",
+    "force_two_fa_desc"             => "Kräv tvåfaktorsautentisering (2FA) på alla konton. Alla konton som inte har 2FA aktiverat kommer att gå igenom stegen för att ställa in det när de loggar in nästa gång.",
+    "two_fa_required"               => "Tvåfaktorsautentisering (2FA) krävs. Vänligen följ informationen nedan för att fortsätta.",
+    "two_fa_user_enable"            => "Användaren kan aktivera 2FA på sitt konto i sina inställningar.",
 
     /*
      * 3.3.0
      */
-    "social_login_desc"             => "Allow users to register and log in using their social account.",
-    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+    "social_login_desc"             => "Låt användarna registrera sig och logga in med hjälp av sitt sociala konto.",
+    "manage_social_login_options"   => "För att lägga till eller hantera sociala inloggningsalternativ, besök sidan <a href=\":route\">Third-Party Integrations</a>.",
 
     /*
      * 3.4.0
@@ -300,28 +300,28 @@ return array(
     /*
      * 3.5.0
      */
-    "phone_number"                  => "Phone Number|Phone Numbers",
+    "phone_number"                  => "Telefonnummer|Telefonnummer",
 
     /*
      * 3.6.0
      */
-    "security_settings"             => "Security Settings",
-    "security_settings_desc"        => "Update your password, enable 2FA and manage other security related settings for your account.",
-    "active_sessions"               => "Active Sessions",
-    "active_sessions_desc"          => "This is a list of devices that have logged into your account, you may revoke any sessions that you do not recognise.",
-    "current_session"               => "Current Session",
-    "logged_in"                     => "Logged In",
-    "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
+    "security_settings"             => "Säkerhetsinställningar",
+    "security_settings_desc"        => "Uppdatera ditt lösenord, aktivera 2FA och hantera andra säkerhetsrelaterade inställningar för ditt konto.",
+    "active_sessions"               => "Aktiva sessioner",
+    "active_sessions_desc"          => "Detta är en lista över enheter som har loggat in på ditt konto, du kan återkalla alla sessioner som du inte känner igen.",
+    "current_session"               => "Aktuell session",
+    "logged_in"                     => "Inloggad",
+    "revoke_session_desc"           => "När du återkallar en session loggas enheten ut från operatörspanelen. Det återkallar också alla kom ihåg mig-tokens för andra enheter.",
 
     /*
      * 4.0.0
      */
-    "verify_phone_number"           => "Verify Phone Number",
-    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
-    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
-    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
-    "verify_phone_code_error"       => "Code could not be verified.",
-    "logged_in_as"                  => "Logged in as :name",
+    "verify_phone_number"           => "Verifiera telefonnummer",
+    "verify_phone_method"           => "Välj den metod som du vill använda för att verifiera ditt telefonnummer.",
+    "verify_phone_code_sent"        => "En verifieringskod har skickats till ditt telefonnummer, vänligen ange koden nedan.",
+    "verify_phone_code_send_error"  => "Ett fel inträffade när du verifieringskoden skickades. Vänligen försök igen senare.",
+    "verify_phone_code_error"       => "Koden kunde inte verifieras.",
+    "logged_in_as"                  => "Inloggad som :name",
 
     /*
      * 4.1.0

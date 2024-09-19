@@ -5,20 +5,20 @@ return array(
     /*
      * 2.4.0
      */
-    "new_ticket"            => "New ticket opened",
-    "user_reply"            => "User reply posted",
-    "operator_reply"        => "Operator reply posted",
-    "operator_note"         => "Operator note posted",
-    "operator_forward"      => "Operator forward posted",
-    "update_department"     => "Department updated",
-    "update_status"         => "Status updated",
-    "update_priority"       => "Priority updated",
-    "update_tags"           => "Tags updated",
-    "update_assigned"       => "Assigned operators updated",
-    "update_user"           => "User updated",
-    "update_brand"          => "Brand updated",
-    "update_subject"        => "Subject updated",
-    "update_watching"       => "Watching operators updated",
+    "new_ticket"            => "Nytt ärende öppnat",
+    "user_reply"            => "Användarsvar publicerat",
+    "operator_reply"        => "Operatörssvar publicerat",
+    "operator_note"         => "Operatörsanteckning publicerad",
+    "operator_forward"      => "Operatör har vidarebefordrat ärendet",
+    "update_department"     => "Avdelning uppdaterad",
+    "update_status"         => "Status uppdaterad",
+    "update_priority"       => "Prioritet uppdaterad",
+    "update_tags"           => "Taggar uppdaterade",
+    "update_assigned"       => "Tilldelade operatörer uppdaterade",
+    "update_user"           => "Användare uppdaterad",
+    "update_brand"          => "Varumärke uppdaterat",
+    "update_subject"        => "Ämne uppdaterat",
+    "update_watching"       => "Bevakande operatörer uppdaterade",
 
     /*
      * 5.0.0

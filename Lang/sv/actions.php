@@ -10,7 +10,7 @@ return array(
     "assign_operator"           => "Tilldela operatör till ärende",
     "remove_tag"                => "Ta bort etikett",
     "email_operators"           => "Skicka e-post till operatörer",
-    "email_operator_group"      => "Skicka e-post till en operatörgrupp",
+    "email_operator_group"      => "Skicka e-post till en operatörsgrupp",
     "email_user"                => "Skicka e-post till användare",
     "email_user_group"          => "Skicka e-post till en användargrupp",
     "unassign_operator"         => "Ta bort operatör från ärendet",
@@ -52,22 +52,22 @@ return array(
     /*
      * 2.3.1
      */
-    "exclude_cc"                => "Exclude CC email addresses",
+    "exclude_cc"                => "Ta bort CC mottagare",
 
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
+    "trigger_webhook"           => "Aktivera webhook",
+    "forward_ticket"            => "Skicka ärendet vidare",
+    "watch_ticket"              => "Sätt operatör att bevaka ärendet",
+    "unwatch_ticket"            => "Ta bort operatör från att bevaka ärendet",
+    "all_watching_operators"    => "Alla operatörer som bevakar ärendet",
 
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
+    "move_to_trash"             => "Flytta ärendet till papperskorgen",
+    "block_user"                => "Blockera användare",
 
     /*
      * 5.0.0

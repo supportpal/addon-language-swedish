@@ -155,43 +155,43 @@ return array(
     /*
      * 2.3.1
      */
-    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
-    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
-    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
-    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
-    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Failed to send email.",
-    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
-    "export_scheduled"                  => "An export of user :rel has been scheduled.",
-    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
-    "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+    "selfservice_comment_updated"       => "Uppdaterade :rel av :extra_rel1.",
+    "selfservice_comment_status"        => "Ändrade status på :rel av :extra_rel1 från :old_value till :new_value.",
+    "selfservice_comment_deleted"       => "Raderade kommentar av :extra_rel1.",
+    "ticket_message_posted"             => "Postade en ny :extra_rel1 till ärende #:rel.",
+    "ticket_message_edited"             => "Redigerade en :extra_rel1 i ärende #:rel.",
+    "email_send_failed"                 => "Misslyckades att skicka e-post.",
+    "ticket_brand_updated"              => "Uppdaterade varumärket på ärende #:rel från :old_value till :new_value.",
+    "export_scheduled"                  => "En export av användare :rel har schemalagts.",
+    "deleted_inactive_records"          => "Raderade automatiskt :old_value inaktiva :rel.",
+    "deleted_old_records"               => "Raderade automatiskt gamla :rel-poster.",
+    "sent_email_to_user_group"          => "Köade e-post till användargruppen ':new_value' för biljett #:rel.",
 
     /*
      * 2.4.0
      */
-    "ticket_watching"                   => "Watching ticket #:rel.",
-    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
-    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
-    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+    "ticket_watching"                   => "Bevakar ärende #:rel.",
+    "ticket_unwatching"                 => "Bevakar inte längre ärende #:rel.",
+    "ticket_watch_operator"             => "Ställ in :new_value för att bevaka ärende #:rel.",
+    "ticket_unwatch_operator"           => "Ta bort :new_value från att bevaka ärende #:rel.",
 
     /*
      * 2.5.0
      */
-    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
-    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
-    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
-    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
-    "ticket_restored"                   => "Restored ticket #:rel from trash.",
-    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+    "marked_user_as_confirmed"          => "Bekräftade ägarskap av e-postadress för användare :rel.",
+    "ticket_department_email_updated"   => "Uppdaterade avdelningens e-post på ärende #:rel från :old_value till :new_value.",
+    "ticket_watching_updated"           => "Uppdaterade bevakande operatörer på ärende #:rel.",
+    "ticket_deleted"                    => "Raderade permanent ärende ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Flyttade ärende #:rel till papperskorgen.",
+    "ticket_restored"                   => "Återställde ärende #:rel från papperskorgen.",
+    "emptied_ticket_trash"              => "Rensade automatiskt ärendepapperskorgen från ':old_value' poster.",
 
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
+    "ticket_followup_set"               => "En ny uppföljning har ställts in på ärende #:rel.",
+    "ticket_followup_updated"           => "En uppföljning på ärende #:rel har uppdaterats.",
+    "ticket_followup_deleted"           => "En uppföljning på ärende #:rel har raderats.",
 
     /*
      * 3.0.0

@@ -277,143 +277,143 @@ return array(
     /*
      * 2.3.1
      */
-    "clone"                     => "Clone",
-    "created_date"              => "Created Date",
-    "alphabetical"              => "Alphabetical",
-    "random"                    => "Random",
-    "blocked"                   => "Blocked",
-    "private_to"                => "Private to",
-    "refresh"                   => "Refresh",
-    "provider"                  => "Provider|Providers",
-    "export"                    => "Export|Exports",
-    "generate"                  => "Generate",
+    "clone"                     => "Klona",
+    "created_date"              => "Skapad datum",
+    "alphabetical"              => "Alfabetisk",
+    "random"                    => "Slumpmässig",
+    "blocked"                   => "Blockerad",
+    "private_to"                => "Privat till",
+    "refresh"                   => "Uppdatera",
+    "provider"                  => "Leverantör|Leverantörer",
+    "export"                    => "Exportera|Exporter",
+    "generate"                  => "Generera",
 
     /*
      * 2.4.0
      */
-    "show_count_more"           => "Show :count more...",
+    "show_count_more"           => "Visa :count fler...",
     "manual"                    => "Manual",
-    "automatic"                 => "Automatic",
+    "automatic"                 => "Automatisk",
     "hook"                      => "Hook",
-    "event"                     => "Event|Events",
+    "event"                     => "Händelse|Händelser",
     "test"                      => "Test",
 
     /*
      * 2.5.0
      */
-    "domain"                    => "Domain|Domains",
-    "move_to_trash"             => "Move to Trash",
-    "trash"                     => "Trash",
-    "trash_desc"                => "Records that have been in the trash for more than :number days will be deleted automatically.",
-    "restore"                   => "Restore",
-    "delete_forever"            => "Delete Forever",
+    "domain"                    => "Domän|Domäner",
+    "move_to_trash"             => "Flytta till papperskorgen",
+    "trash"                     => "Papperskorg",
+    "trash_desc"                => "Poster som har legat i papperskorgen i mer än :number dagar kommer att raderas automatiskt.",
+    "restore"                   => "Återställ",
+    "delete_forever"            => "Radera för alltid",
 
     /*
      * 2.6.0
      */
-    "remove_all"                => "Remove All",
+    "remove_all"                => "Ta bort alla",
 
     /*
      * 3.0.0
      */
-    "previous"                  => "Previous",
+    "previous"                  => "Föregående",
     "neutral"                   => "Neutral",
-    "and"                       => "and",            // Used in "A and B"
-    "optional"                  => "Optional",
-    "january"                   => "January",
-    "february"                  => "February",
-    "march"                     => "March",
-    "april"                     => "April",
-    "may"                       => "May",
-    "june"                      => "June",
-    "july"                      => "July",
-    "august"                    => "August",
-    "september"                 => "September",
-    "october"                   => "October",
-    "november"                  => "November",
-    "december"                  => "December",
-    "jan"                       => "Jan",
-    "feb"                       => "Feb",
-    "mar"                       => "Mar",
-    "apr"                       => "Apr",
-    "jun"                       => "Jun",
-    "jul"                       => "Jul",
-    "aug"                       => "Aug",
-    "sep"                       => "Sep",
-    "oct"                       => "Oct",
-    "nov"                       => "Nov",
-    "dec"                       => "Dec",
-    "mon"                       => "Mon",
-    "tue"                       => "Tue",
-    "wed"                       => "Wed",
-    "thu"                       => "Thu",
-    "fri"                       => "Fri",
-    "sat"                       => "Sat",
-    "sun"                       => "Sun",
+    "and"                       => "och",            // Used in "A and B"
+    "optional"                  => "Valfri",
+    "january"                   => "januari",
+    "february"                  => "februari",
+    "march"                     => "mars",
+    "april"                     => "april",
+    "may"                       => "maj",
+    "june"                      => "juni",
+    "july"                      => "juli",
+    "august"                    => "augusti",
+    "september"                 => "september",
+    "october"                   => "oktober",
+    "november"                  => "november",
+    "december"                  => "december",
+    "jan"                       => "jan",
+    "feb"                       => "feb",
+    "mar"                       => "mar",
+    "apr"                       => "apr",
+    "jun"                       => "jun",
+    "jul"                       => "jul",
+    "aug"                       => "aug",
+    "sep"                       => "sep",
+    "oct"                       => "okt",
+    "nov"                       => "nov",
+    "dec"                       => "dec",
+    "mon"                       => "mån",
+    "tue"                       => "tis",
+    "wed"                       => "ons",
+    "thu"                       => "tors",
+    "fri"                       => "fre",
+    "sat"                       => "lör",
+    "sun"                       => "sön",
     "ordinal_th"                => "th",
     "ordinal_st"                => "st",
     "ordinal_nd"                => "nd",
     "ordinal_rd"                => "rd",
-    "range_separator"           => " to ",
+    "range_separator"           => " till ",
     "week_abbr"                 => "Wk",
-    "scroll_to_increment"       => "Scroll to increment",
-    "click_to_toggle"           => "Click to toggle",
-    "am"                        => "AM",
-    "pm"                        => "PM",
-    "viewing"                   => "Viewing",
+    "scroll_to_increment"       => "Rulla för att öka",
+    "click_to_toggle"           => "Klicka för att växla",
+    "am"                        => "FM",
+    "pm"                        => "EM",
+    "viewing"                   => "Visar",
 
     /*
      * 3.3.0
      */
-    "authentication"            => "Authentication",
-    "manage_credentials"        => "Manage Credentials",
+    "authentication"            => "Autentisering",
+    "manage_credentials"        => "Hantera autentiseringsuppgifter",
 
     /*
      * 3.4.0
      */
-    "select_a_date"             => "Select a date",
-    "select_values"             => "Select values",
-    "file"                      => "File",
+    "select_a_date"             => "Välj datum",
+    "select_values"             => "Välj värden",
+    "file"                      => "Fil",
 
     /*
      * 3.5.0
      */
-    "today"                     => "Today",
-    "yesterday"                 => "Yesterday",
-    "last_7_days"               => "Last 7 Days",
-    "last_30_days"              => "Last 30 Days",
-    "this_month"                => "This Month",
-    "last_month"                => "Last Month",
+    "today"                     => "Idag",
+    "yesterday"                 => "Igår",
+    "last_7_days"               => "Senaste 7 dagarna",
+    "last_30_days"              => "Senaste 30 dagarna",
+    "this_month"                => "Denna månad",
+    "last_month"                => "Förra månaden",
 
     /*
      * 3.6.0
      */
-    "appearance"                => "Appearance",
-    "faster"                    => "Faster",
-    "slower"                    => "Slower",
-    "revoke"                    => "Revoke",
-    "configure"                 => "Configure",
+    "appearance"                => "Utseende",
+    "faster"                    => "Snabbare",
+    "slower"                    => "Långsammare",
+    "revoke"                    => "Återkalla",
+    "configure"                 => "Konfigurera",
 
     /*
      * 3.7.0
      */
-    "download_all"              => "Download All",
+    "download_all"              => "Ladda ner alla",
 
     /*
      * 4.0.0
      */
-    "install"                   => "Install",
-    "installing"                => "Installing...",
-    "updating"                  => "Updating...",
-    "cancelling"                => "Cancelling...",
+    "install"                   => "Installera",
+    "installing"                => "Installerar...",
+    "updating"                  => "Uppdaterar...",
+    "cancelling"                => "Avbryter...",
     "ok"                        => "OK",
-    "mark_as_verified"          => "Mark as Verified",
-    "not_verified"              => "Not Verified",
-    "free"                      => "Free",
-    "commercial"                => "Commercial",
-    "purchase"                  => "Purchase",
-    "more_information"          => "More Information",
-    "details"                   => "Details",
+    "mark_as_verified"          => "Markera som verifierad",
+    "not_verified"              => "Inte verifierad",
+    "free"                      => "Gratis",
+    "commercial"                => "Kommersiell",
+    "purchase"                  => "Köp",
+    "more_information"          => "Mer information",
+    "details"                   => "Detaljer",
 
     /*
      * 4.1.0

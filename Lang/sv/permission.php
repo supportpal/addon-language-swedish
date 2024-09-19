@@ -87,14 +87,14 @@ return array(
      * 2.4.0
      */
     // User
-    "sociallogin"       => "Manage Social Login",
+    "sociallogin"       => "Hantera social inloggning",
 
     /*
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
+    "ticket_delete"     => "Radera ärende permanent",
+    "ticket_trash"      => "Flytta ärende till papperskorgen",
 
     /*
      * 3.0.0
@@ -105,23 +105,23 @@ return array(
     /*
      * 3.3.0
      */
-    "integration"       => "Manage Third-Party Integrations",
+    "integration"       => "Hantera integration av tredje part",
 
     /*
      * 3.6.0
      */
-    "systemupdate"      => "Perform System Update",
+    "systemupdate"      => "Genomför systemuppdatering",
 
     /*
      * 3.7.0
      */
-    "background_jobs"   => "View Background Jobs",
+    "background_jobs"   => "Visa bakgrundsjobb",
 
     /*
      * 4.0.0
      */
-    "addon"             => "View and Manage Add-ons",
-    "system_health"     => "View System Health",
+    "addon"             => "Visa och hantera tillägg",
+    "system_health"     => "Visa systemhälsa",
 
     /*
      * 4.2.0

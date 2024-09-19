@@ -98,75 +98,75 @@ return array(
      * 2.3.1
      */
     "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_slug_unique"       => "The slug has already been taken.",
-    "captcha_required"          => "The captcha is required.",
-    "ticket_number_format"      => "The ticket number format is invalid.",
+    "article_slug_unique"       => "Slug används redan.",
+    "captcha_required"          => "Captcha är obligatoriskt.",
+    "ticket_number_format"      => "Ärendets nummerformat är ogiltigt.",
 
     /*
      * 2.4.0
      */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
-    "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
-    "file"                      => "The :attribute must be a file.",
-    "filled"                    => "The :attribute field must have a value.",
+    "after_or_equal"            => ":attribute måste vara ett datum efter eller lika med :date.",
+    "before_or_equal"           => ":attribute måste vara ett datum före eller lika med :date.",
+    "dimensions"                => ":attribute har ogiltiga bilddimensioner",
+    "distinct"                  => ":attribute fältet har ett duplicerat värde.",
+    "file"                      => ":attribute måste vara en fil.",
+    "filled"                    => ":attribute fältet måste ha ett värde.",
     "gt"                        => array(
-        "numeric" => "The :attribute must be greater than :value.",
-        "file"    => "The :attribute must be greater than :value kilobytes.",
-        "string"  => "The :attribute must be greater than :value characters.",
-        "array"   => "The :attribute must have more than :value items.",
+        "numeric" => ":attribute måste vara större än :value.",
+        "file"    => ":attribute måste vara större än :value kilobyte.",
+        "string"  => ":attribute måste vara längre än :value tecken.",
+        "array"   => ":attribute måste ha fler än :value föremål.",
     ),
     "gte"                       => array(
-        "numeric" => "The :attribute must be greater than or equal :value.",
-        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
-        "string"  => "The :attribute must be greater than or equal :value characters.",
-        "array"   => "The :attribute must have :value items or more.",
+        "numeric" => ":attribute måste vara större än eller lika med :value.",
+        "file"    => ":attribute måste vara större än eller lika med :value kilobyte.",
+        "string"  => ":attribute måste vara längre än eller lika med :value tecken.",
+        "array"   => ":attribute måste ha :value föremål eller fler.",
     ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
+    "in_array"                  => ":attribute fältet finns inte i :other.",
+    "ipv4"                      => ":attribute måste vara en giltig IPv4-adress.",
+    "ipv6"                      => ":attribute måste vara en giltig IPv6-adress.",
+    "json"                      => ":attribute måste vara en giltig JSON-sträng.",
     "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
-        "file"    => "The :attribute must be less than :value kilobytes.",
-        "string"  => "The :attribute must be less than :value characters.",
-        "array"   => "The :attribute must have less than :value items.",
+        "numeric" => ":attribute måste vara mindre än :value.",
+        "file"    => ":attribute måste vara mindre än :value kilobyte.",
+        "string"  => ":attribute måste vara kortare än :value tecken.",
+        "array"   => ":attribute måste ha färre än :value föremål.",
     ),
     "lte"                       => array(
-        "numeric" => "The :attribute must be less than or equal :value.",
-        "file"    => "The :attribute must be less than or equal :value kilobytes.",
-        "string"  => "The :attribute must be less than or equal :value characters.",
-        "array"   => "The :attribute must not have more than :value items.",
+        "numeric" => ":attribute måste vara mindre än eller lika med :value.",
+        "file"    => ":attribute måste vara mindre än eller lika med :value kilobyte.",
+        "string"  => ":attribute måste vara kortare än eller lika med :value tecken.",
+        "array"   => ":attribute måste ha :value föremål eller färre.",
     ),
-    "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
-    "uploaded"                  => "The :attribute failed to upload.",
+    "mimetypes"                 => ":attribute måste vara en fil av typen: :values.",
+    "not_regex"                 => ":attribute formatet är ogiltigt.",
+    "present"                   => ":attribute fältet måste finnas med.",
+    "required_unless"           => ":attribute fältet är obligatoriskt om inte :other finns i :values.",
+    "string"                    => ":attribute måste vara en sträng.",
+    "timezone"                  => ":attribute måste vara en giltig zon.",
+    "uploaded"                  => ":attribute misslyckades med uppladdningen.",
 
     /*
      * 2.5.0
      */
-    "domain"                    => "One or more of the domain names are not valid.",
+    "domain"                    => "Ett eller flera av domännamnen är ogiltiga.",
 
     /*
      * 2.5.1
      */
-    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
+    "valid_twig"                => ":attribute är ogiltigt. Vänligen använd 'Förhandsvisning' för detaljer.",
 
     /*
      * 3.0.0
      */
-    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
-    "starts_with"               => "The :attribute must start with one of the following: :values.",
+    "embed_image"               => ":attribute måste vara en fil av typen: jpeg, png eller gif.",
+    "starts_with"               => ":attribute måste börja med något av följande: :values.",
 
     /*
      * 3.5.0
      */
-    "phone"                     => "The supplied phone number is invalid.",
+    "phone"                     => "Det angivna telefonnumret är ogiltigt.",
 
     /*
      * 4.3.0

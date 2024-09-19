@@ -150,7 +150,7 @@ return array(
     /*
      * 5.1.0
      */
-    "ticket_messages"                   => "Ärendemeddelanden",
+    "ticket_messages"                   => "Ticket Messages",
     "ticket_messages_desc"              => "A breakdown of ticket messages, notes and forwards posted in the timeframe.",
     "messages_by_operators"             => "Messages by Operators",
     "notes_by_operators"                => "Notes by Operators",

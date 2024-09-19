@@ -123,33 +123,33 @@ return array(
     /*
      * 2.3.1
      */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+    "sent_email"            => "e-posten har skickats.",
+    "task_already_running"  => "Schemalagd uppgift körs automatiskt för närvarande, vänligen försök igen om en stund.",
+    "linked_account"        => "Det sociala kontot har framgångsrikt länkats till ditt konto.",
+    "already_linked"        => "Det sociala kontot är redan länkat till ett annat konto. Vänligen logga in på det andra kontot och ta bort länken.",
 
     /*
      * 2.4.0
      */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
+    "does_look_correct"     => "Ser detta korrekt ut?",
+    "no_revert"             => "Nej! Ångra",
+    "attachment_not_found"  => "Bilagan hittades inte.",
 
     /*
      * 2.5.0
      */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+    "account_closed"        => "Ditt konto har stängts. Vänligen kontakta oss om du tror att detta har gjorts av misstag.",
+    "leave_record"          => "Lämna :record?",
+    "leave_record_warn"     => "Detta kommer permanent att ta bort dig från :record.",
+    "success_trashed"       => "Flyttade :item till papperskorgen!",
+    "error_trashed"         => "Misslyckades med att flytta :item till papperskorgen.",
+    "blocked_by_rule"       => "Begäran blockerades av spamregeln ':text'.",
 
     /*
      * 3.0.0
      */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
-    "error_editing_message" => "There was an error while trying to edit this message.",
+    "popup_blocked"         => "Din webbläsare blockerar popup-fönster. Vänligen aktivera popup-fönster och omdirigeringar på denna webbplats för att använda förhandsgranskningsfunktionen.",
+    "error_editing_message" => "Ett fel uppstod när du försökte redigera detta meddelande.",
 
     /*
      * 4.1.1
