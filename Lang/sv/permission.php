@@ -56,7 +56,6 @@ return array(
 
     // Report
     "report"            => "Visa rapporter",
-    "reportdashboard"   => "Visa instrumentbräda",
 
     // General
     "tag"               => "Hantera etiketter",
@@ -77,7 +76,6 @@ return array(
     // User
     "usercustomfield"   => "Hantera användarskräddarsydda fält",
     "organisationcustomfield" => "Hantera organisationskräddarsydda fält",
-    "operatorsignature" => "Hantera operatörssignaturer",
 
     /*
      * 2.1.1
@@ -125,4 +123,18 @@ return array(
     "addon"             => "Visa och hantera tillägg",
     "system_health"     => "Visa systemhälsa",
 
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Manage Operator Reply Templates",
+
+    /*
+     * 5.0.0
+     */
+    "private_messaging" => "View Private Messages",
+
+    /*
+     * 5.1.0
+     */
+    "manage_report"     => "Manage Reports",
 );

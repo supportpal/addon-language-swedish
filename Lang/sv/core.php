@@ -90,7 +90,6 @@ return array(
     "smtp_username"             => "SMTP-användarnamn",
     "smtp_password"             => "SMTP-lösenord",
     "ssl"                       => "SSL",
-    "tls"                       => "TLS",
     "email_content"             => "E-postinnehåll",
     "email_content_desc"        => "Skriv in ett standardämne och e-postinnehåll för denna mall. Du kan skriva denna mall i andra språk. Om en mall inte har ett annat språk så kommer den att använda standarddatan.",
     "outgoing"                  => "Utgående",
@@ -174,7 +173,6 @@ return array(
     "schedule_task_cron"        => "Cronjobb",
     "schedule_task_3"           => "Skapa ett cronjobb liknande exemplet nedan på din server för att schemalagda aktiviteter ska köras automatiskt.",
     "ticket_channel_desc"       => "Ärendekanaler är metoder för att skapa ärenden. De kan lätt bli utökade att inkludera dina egna kanaler till exempel ärenden öppnade via Instagram.",
-    "ticket_channel_2"          => "Vi tillhandahåller ett antal standardkanaler. Du kan aktivera och konfigurera Facebook- och Twitter-kanalerna att samla ärenden genererade via sociala medier.",
     "user_desc"                 => "Användare som interagerar med ditt system visas här.Du kan lägga till, ändra och ta bort användare som du vill.",
     "organisation_desc"         => "Användare kan bli tilldelade organisationer som ger dem tillgång till ärenden öppnade av andra användare inom sin organisation.",
     "operator_desc"             => "Andra personalmedlemmar kan bli tillagda som operatörer här tillsammans med att hantera vilka avdelningar de tillhör.",
@@ -590,5 +588,99 @@ return array(
     "alternative_description"   => "Alternativ beskrivning",
     "browse_image"              => "Bläddra efter en bild",
     "drop_image"                => "Släpp en bild här",
+
+    /*
+     * 4.2.0
+     */
+    "keyboard_shortcuts"        => "Keyboard Shortcuts",
+    "enable_keyboard_shortcuts" => "Enable keyboard shortcuts",
+    "shortcut_global"           => "Global shortcuts",
+    "shortcut_toggle"           => "Toggle the keyboard shortcuts dialog",
+    "shortcut_start_search"     => "Start search",
+    "shortcut_goto_new_ticket"  => "Go to the open new ticket page",
+    "shortcut_ticket_view"      => "Ticket view shortcuts",
+    "shortcut_focus_reply"      => "Focus the reply form",
+    "shortcut_focus_notes"      => "Focus the notes form",
+    "shortcut_focus_forward"    => "Focus the forward form",
+    "shortcut_toggle_user_tab"  => "Toggle the user details tab in the sidebar",
+    "shortcut_take_ticket"      => "Take ticket",
+    "shortcut_close_ticket"     => "Close ticket",
+    "shortcut_lock_ticket"      => "Close & lock ticket",
+    "shortcut_unlock_ticket"    => "Unlock ticket",
+    "shortcut_trash_ticket"     => "Move ticket to trash",
+    "shortcut_block_user"       => "Block user and move ticket to trash",
+    "shortcut_watch_ticket"     => "Watch ticket",
+    "shortcut_unwatch_ticket"   => "Unwatch ticket",
+    "shortcut_merge_ticket"     => "Merge ticket",
+    "shortcut_unmerge_ticket"   => "Unmerge ticket",
+    "shortcut_expand_all"       => "Expand all messages",
+    "shortcut_collapse_all"     => "Collapse all messages",
+    "shortcut_print_ticket"     => "Print ticket details and messages",
+
+    /*
+     * 4.3.0
+     */
+    "db_connection_error"       => "Database connection error, please check :path",
+
+    /*
+     * 5.0.0
+     */
+    "favicon_dark_mode"         => "Dark Mode Favicon",
+    "favicon_dark_mode_desc"    => "If your favicon was designed to only work on a light background, set a different favicon for dark mode. This will only be used if your browser and/or operating system is running in dark mode.",
+    "template_mode_system_desc" => "Choosing system will synchronise the template mode to light or dark mode depending on your operating system theme settings.",
+
+    /*
+     * 5.0.1
+     */
+    "starttls_or_none"          => "STARTTLS / None",
+
+    /*
+     * 5.1.0
+     */
+    "email_attempt_at_desc"     => "The email failed to send. Retrying again :time.", // :time example, "in 5 mins"
+    "websockets_connection"     => "Web Sockets Connection",
+    "websockets_not_running"    => "Unable to connect to web socket server.",
+    "search_driver_check"       => "Search Driver",
+    "search_driver_not_working" => "The configured search driver is not working correctly.",
+
+    /*
+     * 5.2.0
+     */
+    "temporary_path"            => "Temporary Path",
+    "temporary_path_desc"       => "The temporary path is used to store files during the update. The system temporary path is used by default. The path must have at least 3GB of free space.",
+    "background_jobs_desc"      => "Below are a list of background jobs that have failed recently.",
+    "failed_jobs"               => "Failed Jobs",
+    "horizon_dashboard"         => "Horizon Dashboard",
+    "job"                       => "Job|Jobs",
+    "job_payload"               => "Job Payload",
+    "job_exception"             => "Job Exception",
+    "failed_at"                 => "Failed At",
+    "queue"                     => "Queue",
+    "exception"                 => "Exception",
+    "data"                      => "Data",
+    "failed_background_jobs"    => "One or more <a target='_blank' href=':link'>background jobs</a> have failed and require manual attention.",
+
+    /*
+     * 5.3.0
+     */
+    "ticket_channel_2"          => "Vi tillhandahåller ett antal standardkanaler. Du kan aktivera och konfigurera Facebook- och Twitter-kanalerna att samla ärenden genererade via sociala medier.",
+    "incoming_duplicate"        => "Incoming (Duplicate)",
+
+    /*
+     * 5.4.0
+     */
+    "email_method_overridden"   => "The email method has been overridden in the <a href=':link' target='_blank'>default brand settings</a>.",
+    "addon_not_found"           => "Add-on not found.",
+    "deactivating_addon"        => "Deactivating add-on...",
+    "addon_already_activated"   => "Add-on already activated.",
+    "addon_already_deactivated" => "Add-on already deactivated.",
+    "addon_cannot_deactivate"   => "Add-on cannot be deactivated.",
+    "addon_activation_failed"   => "Add-on activation failed, check the application log for more information.",
+    "addon_deactivation_failed" => "Add-on deactivation failed, check the application log for more information.",
+    "site_key"                  => "Site Key",
+    "secret_key"                => "Secret Key",
+    "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
+    "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
+    "captcha_type_desc"         => "Select the Captcha to be used throughout the system. We recommend switching to Google reCAPTCHA, which requires additional configuration.",
 
 );

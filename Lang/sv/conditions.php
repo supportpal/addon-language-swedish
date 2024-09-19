@@ -82,11 +82,6 @@ return array(
     "last_message_content"              => "Senaste meddelandeinnehåll",
 
     /*
-     * 2.5.0
-     */
-    "user_email_confirmed"              => "Användarens e-post bekräftad",
-
-    /*
      * 3.0.0
      */
     "user_2fa_enabled"                  => "Användaren har tvåfaktorsautentisering aktiverad",
@@ -112,4 +107,15 @@ return array(
      * 4.0.0
      */
     "last_message_content_exc_notes"    => "Senaste meddelandeinnehåll (ej noteringar)",
+
+    /*
+     * 5.0.0
+     */
+    "user_email_verified"               => "User email verified",
+    "ticket_has_followup"               => "Ticket has follow up",
+
+    /*
+     * 5.3.0
+     */
+    "user_registered"                   => "User registered",
 );

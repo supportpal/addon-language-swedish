@@ -82,11 +82,6 @@ return array(
     "logo"                      => "Loggan måste peka mot en giltig bildfil (URL eller relativ filsökväg utifrån basmappen).",
 
     /*
-     * 2.1.1
-     */
-    "old_password"              => ":attributefältet är ogiltigt.",
-
-    /*
      * 2.2.0
      */
     "required_with_translation" => ":translation översättningen av :attribute fältet krävs när :values finns.",
@@ -169,14 +164,21 @@ return array(
     "starts_with"               => ":attribute måste börja med något av följande: :values.",
 
     /*
-     * 3.4.0
-     */
-    "password"                  => "Lösenordet är felaktigt.",
-
-    /*
      * 3.5.0
      */
-    'phone'                     => "Det angivna telefonnumret är ogiltigt.",
+    "phone"                     => "Det angivna telefonnumret är ogiltigt.",
+
+    /*
+     * 4.3.0
+     */
+    "is_invalid"                => "The :attribute is invalid.",
+
+    /*
+     * 5.0.0
+     */
+    "current_password"           => "The password is incorrect.",
+    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
+    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
 
     /*
     |--------------------------------------------------------------------------
