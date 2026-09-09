@@ -76,7 +76,6 @@ return array(
 
     "ldap_account"                  => "LDAP-konto|LDAP-konton",
     "ldap_operator_desc"            => "Söker efter en existerande operatör eller skapar en ny.",
-    "ldap_server"                   => "LDAP-server",
     "ldap_server_desc"              => "Serverns hostnamn. Alternativt kan du specifiera den fulla LDAP-URI:n. Exempel: ldaps://ldap.server:1234/ kommer ansluta via SSL till porten 1234.",
     "ldap_username"                 => "LDAP-användarnamn",
     "ldap_username_desc"            => "Användarnamnet som operatören kommer använda för att logga in till helpdesken (deras LDAP-användarnamn).",
@@ -85,9 +84,6 @@ return array(
     "ldap_details"                  => "LDAP-detaljer",
 
     "operator_details"              => "Operatördetaljer",
-
-    "email_notifications"           => "E-postnotifikationer",
-    "email_notifications_desc"      => "E-postnotifikationerna som kommer mottas från systemet.",
 
     "enable_ldap"                   => "Tillåt LDAP-inloggning",
     "enable_ldap_desc"              => "Om du använder LDAP kan du aktivera det för operatörsinloggning. Efter att det har aktiverats kan du gå till LDAP-kontoinställningssidan för konfiguration.",
@@ -132,7 +128,6 @@ return array(
     "two_fa_code"                   => "2FA-kod",
     "two_fa_secret"                 => "2FA-hemlighet",
     "two_fa_secret_desc"            => "Förvara detta på en säker plats då du kommer att behöva detta för att lägga in autentiseringskontot igen om du skulle förlora åtkomst.",
-    "display_notifications"         => "Visa notifikationer",
     "desktop_notifications"         => "Skrivbordsnotifikationer",
     "browser_notifications"         => "Webbläsarnotifikationer",
 
@@ -373,11 +368,6 @@ return array(
     "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
 
     /*
-     * 5.2.3
-     */
-    "display_notifications_desc"    => "Systemet kommer polla nya ärenden, svar och andra operatörer som loggar in medan du har operatörspanel öppen. Du kan välja mellan skrivbordsnotifieringar, webbläsarnotifieringar och att avaktivera det helt.",
-
-    /*
      * 5.3.0
      */
     "email_verified"                => "Email Verified",
@@ -386,4 +376,45 @@ return array(
     "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
     "password_set_success"          => "Password set successfully!",
 
+    /*
+     * 5.7.0
+     */
+    "reply_template_cursor_position" => "Use the 'Set Cursor Position' option in the editor to specify where the cursor will be positioned when the user opens the editor to reply to a ticket.",
+    "system_bot_desc"               => "This is a system bot account used for automated actions. You can only edit its name and avatar.",
+    "notification_settings"         => "Notification Settings",
+    "operator_notifications"        => "Operator Notifications",
+    "operator_notifications_desc"   => "Update the notification preferences for the operator account.",
+    "default_department_subscription" => "Default Department Subscription",
+    "default_department_subscription_desc" => "Set the default notification subscription to determine when notifications are sent on ticket events. This subscription will be used for any department that does not have a specific subscription configured.",
+    "department_subscriptions"      => "Department Subscriptions",
+    "department_subscriptions_desc" => "Customise the notification subscription for each department.",
+    "subscription_type"             => "Subscription Type",
+    "subscription_default"          => "Default",
+    "subscription_default_desc"     => "Use the default department subscription for this department.",
+    "subscription_all_activity"     => "All Activity",
+    "subscription_all_activity_desc" => "Receive notifications about all activity in this department.",
+    "subscription_unassigned_and_assigned" => "Unassigned and Assigned",
+    "subscription_unassigned_and_assigned_desc" => "Receive notifications from this department when there are no assignees on the ticket, or when you are assigned. Notifications are also sent when watching the ticket or @mentioned.",
+    "subscription_assigned_only"    => "Assigned Only",
+    "subscription_assigned_only_desc" => "Receive notifications from this department only when assigned to the ticket. Notifications are also sent when watching the ticket or @mentioned.",
+    "subscription_ignore"           => "Ignore",
+    "subscription_ignore_desc"      => "Don't receive notifications for any activity in this department, apart from when watching or @mentioned.",
+    "configure_on_operator_notifications" => "Department-specific notification subscriptions can be set on the <a href=':route' target='_blank'>operator notifications</a> page.",
+    "notification_channel_email"    => "Email",
+    "notification_channel_browser"  => "Browser",
+    "browser_notifications_desc"    => "The system will notify you of certain events through the browser. You can choose between desktop notifications, in-app notifications, or disabling them completely.",
+    "failed_login_notification"     => "Failed Operator Login",
+    "failed_login_notification_desc" => "Notifies you when someone fails to log in to the operator panel or has their IP banned due to multiple failed login attempts.",
+    "notifications_desc"            => "Select the channels on which you would like to be notified about system events, or disable individual notifications completely.",
+    "in_app_notifications"          => "In-App Notifications",
+
+    /*
+     * 6.0.0
+     */
+    "ldap_start_tls_desc"           => "Whether to connect insecurely and upgrade the connection using StartTLS. If you're using the LDAPS protocol, this option should not be used.",
+    "ldap_ca_cert"                  => "CA Certificate",
+    "ldap_ca_cert_desc"             => "Optionally upload the LDAP server's CA certificate file. This is only necessary when using self-signed certificates.",
+    "ldap_server"                   => "LDAP-server",
+    "ldap_server_hostname"          => "Hostname",
+    "ldap_server_name_desc"         => "A friendly name to identify this LDAP server.",
 );
