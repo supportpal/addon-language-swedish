@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Återvänd till :page.",
 
-    "session_expired"       => "Din session har gått ut, logga in igen.",
     "session_refresh"       => "Din session har gått ut, ladda om sidan och försök igen.",
 
     "general_error"         => "Ett fel uppstod. Försök igen.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Förbjuden",
 
     "not_logged_exception"  => "<strong>Whoops! Något gick fel.</strong><br />Kontakta systemadministratören om felet kvarstår.",
-
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
 
     "not_operator"          => "Något gick fel. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
 
@@ -167,5 +164,15 @@ return array(
      */
     "lock_timeout"          => "Lock Timeout",
     "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Din session har gått ut, logga in igen.",
 
 );

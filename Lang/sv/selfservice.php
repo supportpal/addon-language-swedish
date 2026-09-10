@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Utdrag",
     "associate_tag"             => "Associera artikeln med en etikett...",
     "associate_category"        => "Associera artikeln med en kategori...",
-    "published_desc"            => "Om artikeln kan visas publikt. Om den inte är publicerad kan den fortfarande synas via direkt-URL så länge en av kategorierna är publika.",
     "registered_users_desc"     => "Växla för att visa artiklar enbart för inloggade användare.",
 
     "comment_by"                => "Kommentar av",
@@ -150,12 +149,31 @@ return array(
      */
     "type_protected_desc"       => "Växla för att endast visa innehåll av den här typen för inloggade användare.",
     "article_feedback"          => "Artikel Feedback",
-    "frontend_icon_desc"        => "Select a <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regular icon to display on the frontend for your type, you can also search for a custom icon not included in the list (starting with 'fa-').",
     "comment_deleted"           => "Comment deleted",
 
     /*
      * 5.3.0
      */
     "in_reply_to"               => "in reply to",
+
+    /*
+     * 5.7.0
+     */
+    "comment_notification"      => "New Comment Posted",
+    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Om artikeln kan visas publikt. Om den inte är publicerad kan den fortfarande synas via direkt-URL så länge en av kategorierna är publika.",
+    "not_published"             => "Not Published",
+
+    /*
+     * 6.0.0
+     */
+    "frontend_icon_desc"        => "Select a <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regular icon to display on the frontend for your type, you can also search for a custom icon not included in the list (starting with 'fa-').",
+    "icon_book"                 => "Book",
+    "icon_download"             => "Download",
+    "icon_newspaper"            => "Newspaper",
 
 );
