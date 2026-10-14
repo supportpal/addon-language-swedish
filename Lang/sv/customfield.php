@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Om fältet måste fyllas i. För kryssrutan, checklistan eller flera alternativstyper, kommer det att kräva att användaren väljer minst ett alternativ.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** ENCRYPTED **",
 );
